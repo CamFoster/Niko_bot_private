@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#Cam
 import atexit
 import datetime
 import itertools
@@ -22,20 +22,14 @@ class InstaBot:
     """
     Instagram bot v 1.1.0
     like_per_day=1000 - How many likes set bot in one day.
-
     media_max_like=0 - Don't like media (photo or video) if it have more than
     media_max_like likes.
-
     media_min_like=0 - Don't like media (photo or video) if it have less than
     media_min_like likes.
-
     tag_list = ['cat', 'car', 'dog'] - Tag list to like.
-
     max_like_for_one_tag=5 - Like 1 to max_like_for_one_tag times by row.
-
     log_mod = 0 - Log mod: log_mod = 0 log to console, log_mod = 1 log to file,
     log_mod = 2 no log.
-
     https://github.com/LevPasha/instabot.py
     """
 
